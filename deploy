@@ -1,0 +1,1 @@
+semver inc patch; semver; git add .; git commit -m deploy; git push

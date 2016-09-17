@@ -21,7 +21,7 @@ class Root < Sinatra::Base
         STDERR.puts cmd
         system cmd
       end
-      send_file(file, disposition: 'inline', filename: 'screenshot.png', last_modified: File.mtime(file), type: 'image/png')
+      send_file(file, disposition: 'inline', filename: 'screenshot.png', type: 'image/png') # last_modified: File.mtime(file), type: 'image/png')
     else
       "Give me an url"
     end
