@@ -7,7 +7,7 @@ require 'uri'
 DEFAULT_SIZE = '800px600px'
 IMAGE_EXT = '.png'
 
-TMP_DIR = './tmp/'
+TMP_DIR = '/tmp/'
 
 class Root < Sinatra::Base
   get '/' do
